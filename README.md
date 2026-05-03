@@ -1,14 +1,29 @@
 # Phone-Numbers-OCR
- 
- 1. Make images Folder and add phonenumbers screen shots in that file
 
- 2. Make venv
-    
-    python -m venv venv <- bash
-    venv\Scripts\activate <- cmd Activate
+## ⚙️ Setup Instructions
 
-3. pip install pytesseract opencv-python
+### 1. Create Project Folder
+Create a folder and add your images inside `images/` folder.
 
-4. Install Tesseract OCR -> "C:\Program Files\Tesseract-OCR\tesseract.exe"
+---
 
-5. RUN -> python script.py
+### 2. Create Virtual Environment
+```bash
+python -m venv venv
+```
+### 3. Activate venv
+```bash
+venv\Scripts\activate
+```
+### 4. Install Packages
+```bash
+pip install pytesseract opencv-python
+```
+
+### 5. Install Tesseract OCR
+`C:\Program Files\Tesseract-OCR\tesseract.exe`
+
+### 6. RUN
+```bash
+python script.py
+```
